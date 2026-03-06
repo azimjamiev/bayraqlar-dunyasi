@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, sans-serif;
+    background: lightgray;
+    margin:0;
+    padding:0;
+}
+
+.contact{
+    width:400px;
+    margin:50px auto;
+    background: white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+.contact h2{
+    text-align:center;
+}
+
+.contact p{
+    text-align:center;
+    font-size:14px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+label{
+    margin-top:10px;
+}
+
+input, textarea{
+    padding:8px;
+    margin-top:5px;
+    border:1px solid lightgray;
+    border-radius:5px;
+}
+
+button{
+    margin-top:15px;
+    padding:10px;
+    background: blue;
+    color: white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background: darkblue;
+}

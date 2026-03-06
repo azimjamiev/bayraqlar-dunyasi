@@ -1,0 +1,100 @@
+body{
+font-family: Arial;
+background: black;
+color: white;
+margin:0;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background: darkblue;
+padding:15px;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+header{
+text-align:center;
+padding:40px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+padding:20px;
+}
+
+.card{
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+padding:15px;
+height:150px;
+color:white;
+text-shadow:2px 2px 5px black;
+}
+
+.flag{
+font-size:60px;
+color:white;
+}
+
+.card h3{
+color:white;
+margin:5px 0;
+}
+
+.card p{
+color:white;
+margin:0;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:black;
+}
+
+.uz{
+background-image:url(uzb.jpg);
+}
+
+.kz{
+background-image:url(kz.jpg);
+}
+
+.tr{
+background-image:url(tr.jpg);
+}
+
+.jp{
+background-image:url(jp.jpg);
+}
+
+.de{
+background-image:url(de.jpg);
+}
+
+.fr{
+background-image:url(FR.jpg);
+}
+
+.us{
+background-image:url(aqsh.jpg);
+}
+
+.br{
+background-image:url(brazil.jpg);
+}

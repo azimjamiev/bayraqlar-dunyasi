@@ -1,0 +1,84 @@
+body{
+font-family: Arial;
+background: black;
+color: white;
+margin:0;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background: darkblue;
+padding:15px;
+}
+
+nav ul{
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+header{
+text-align:center;
+padding:40px;
+}
+
+.colors{
+padding:20px;
+}
+
+.color-card{
+padding:20px;
+margin:10px;
+border-radius:10px;
+}
+
+.red{
+background:red;
+}
+
+.blue{
+background:blue;
+}
+
+.green{
+background:green;
+}
+
+.yellow{
+background:gold;
+color:black;
+}
+
+.white{
+background:white;
+color:black;
+}
+
+.black{
+background:black;
+border:1px solid white;
+}
+
+.facts{
+padding:20px;
+}
+
+.fact{
+background:gray;
+padding:20px;
+margin:10px;
+border-radius:10px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:black;
+}
