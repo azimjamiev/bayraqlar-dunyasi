@@ -82,3 +82,27 @@ text-align:center;
 padding:20px;
 background:black;
 }
+.table-section{
+    padding:20px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+}
+
+th, td{
+    border:1px solid black;
+    padding:10px;
+    text-align:center;
+}
+
+th{
+    background:darkblue;
+    color:white;
+}
+
+tr:nth-child(even){
+    background:lightgray;
+}
